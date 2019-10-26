@@ -6,4 +6,5 @@ The test file in the repo simulates raid performance for 10 disks.
 
 Commands to run and test:
 mpicc -o out raid_mpi.c // creating an executable
+
 mpirun -n 11 out test10.txt // Testing 
